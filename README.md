@@ -11,7 +11,7 @@ Setup includes:
 - oh-my-zsh
 - vim plugins
 - starship prompt
-- asdf (for managing versoins of ruby, node, python, kubectl and others)
+- asdf (for managing versions of ruby, node, python, kubectl and others)
 - fzf used in various ways
 - many personalised aliases and functions
 - other miscellaneous tools
@@ -19,9 +19,10 @@ Setup includes:
 ### Use it
 
 1. install `chezmoi` (`curl -sfL https://git.io/chezmoi | sh`)
-2. `chezmoi init https://github.com/samtgarson/dotfiles.git`
+2. `chezmoi init https://github.com/sophieklm/dotfiles.git`
 3. `chezmoi diff` to comparec config files (this does not display scripts that will run, so take a last look at what is included to be sure)
 4. `chezmoi apply` to install everything in one command
+5. `chezmoi update` when changes are made
 
 ### Contribute
 
