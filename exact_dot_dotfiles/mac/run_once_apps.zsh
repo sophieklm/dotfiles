@@ -11,6 +11,9 @@ install_apps () {
     notion
     spotify
     rectangle
+    visual-studio-code
+    zoom
+    postman
   )
 
   for app in $apps; do
