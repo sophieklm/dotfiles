@@ -1,0 +1,23 @@
+#!/usr/bin/env zsh 
+
+source ~/.local/share/chezmoi/.helpers
+
+if is_installed cowsay; then
+  success 'cowsay is already installed'
+else
+  started Installing cowsay
+  {{- if eq .chezmoi.os "darwin" }}
+  successfully brew install cowsay
+  {{- end }}
+  success Installed cowsay
+fi
+
+if is_installed fortune; then
+  success 'fortune is already installed'
+else
+  started Installing fortune
+  {{- if eq .chezmoi.os "darwin" }}
+  successfully brew install fortune
+  {{- end }}
+  success Installed fortune
+fi

@@ -32,6 +32,10 @@ fi
 alias cm=chezmoi
 alias cma="chezmoi apply && source ~/.zshrc"
 
+cow () {
+  fortune | cowsay -f $(ls /opt/homebrew/opt/cowsay/share/cows | shuf -n1)
+}
+
 if which code >/dev/null; then
   export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 fi
