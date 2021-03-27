@@ -84,7 +84,7 @@
     "Blue Component" : 0.90588235294117647,
     "Green Component" : 0.8901960784313725
   },
-  "Working Directory" : "\/Users\/sam",
+  "Working Directory" : "\/Users\/sophie",
   "Blinking Cursor" : false,
   "Disable Window Resizing" : true,
   "Sync Title" : false,
@@ -112,7 +112,7 @@
   "Title Components" : 3,
   "Custom Command" : "No",
   "ASCII Anti Aliased" : true,
-  "tmux Pane Title" : "Sam",
+  "tmux Pane Title" : "Sophie",
   "Non Ascii Font" : "Monaco 12",
   "Vertical Spacing" : 1.1499999999999999,
   "Use Bold Font" : true,
@@ -268,7 +268,7 @@
     "Green Component" : 0.94901960784313721
   },
   "ASCII Ligatures" : true,
-  "Name" : "Sam",
+  "Name" : "Sophie",
   "Cursor Text Color" : {
     "Red Component" : 0.10588235294117647,
     "Color Space" : "sRGB",
