@@ -33,7 +33,7 @@ alias cm=chezmoi
 alias cma="chezmoi apply && source ~/.zshrc"
 
 cow () {
-  fortune | cowsay -f $(ls /opt/homebrew/opt/cowsay/share/cows | shuf -n1)
+  fortune /Users/sophie/Code/test/lgtm | cowsay -f $(ls /opt/homebrew/opt/cowsay/share/cows | shuf -n1)
 }
 
 if which code >/dev/null; then
@@ -67,3 +67,7 @@ export PATH="/Users/sophie/Code/test/LGTM:$PATH"
 source ~/.dotfiles/completions.zsh
 
 eval "$(starship init zsh)"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
