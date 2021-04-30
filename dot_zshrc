@@ -62,6 +62,7 @@ if [ -f ~/.fzf.zsh ]; then
 fi
 
 export PATH="/opt/homebrew/bin:$PATH"
+export PATH="/Users/sophie/Code/test/LGTM:$PATH"
 
 source ~/.dotfiles/completions.zsh
 

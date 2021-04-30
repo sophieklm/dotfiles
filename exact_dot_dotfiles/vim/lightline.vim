@@ -7,7 +7,6 @@ function! CocCurrentFunction()
 endfunction
 
 let g:lightline = {
-\   'colorscheme': 'challenger_deep',
 \   'active': {
 \     'left': [ [ 'mode', 'paste' ],
 \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ],

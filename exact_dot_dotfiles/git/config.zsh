@@ -5,6 +5,7 @@ alias gprune='git branch --merged | egrep -v "(^\*|main|master|dev)" | xargs git
 alias gwip='gaa && gc -m "wip" -n'
 alias gdc='gd --cached'
 alias gai='git add -i'
+alias gnb='git checkout -b'
 
 function default-branch () {
   git symbolic-ref refs/remotes/origin/HEAD | splt 4 '/'

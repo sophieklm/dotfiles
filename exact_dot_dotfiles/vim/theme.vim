@@ -13,8 +13,6 @@ let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 
 syntax enable
 set background=dark
-colorscheme challenger_deep
-let g:challenger_deep_terminal_italics = 1
 
 " Toggle line cursor on insert mode
 autocmd InsertEnter,InsertLeave * set cul!
