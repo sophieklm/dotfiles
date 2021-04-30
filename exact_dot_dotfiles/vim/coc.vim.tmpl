@@ -112,7 +112,7 @@ command! -nargs=0 OR   :call     CocActionAsync('runCommand', 'editor.action.org
 nnoremap <silent><nowait> <leader>L  :<C-u>CocList diagnostics<cr>
 
 " Add status line support, for integration with other plugin, checkout `:h coc-status`
-set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
+" set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
 
 " Install extensions
 let g:coc_global_extensions = [
